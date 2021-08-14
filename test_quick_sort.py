@@ -27,7 +27,3 @@ class QuickSortTest(unittest.TestCase):
         def is_bigger(a, b):
             return b < a
         self.assertEqual([4, 3, 2, 1], quick_sort([1, 2, 3, 4], is_bigger))
-
-
-if __name__ == '__main__':
-    unittest.main()
