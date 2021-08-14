@@ -17,7 +17,7 @@ def main():
     things_including_blanks = lines.splitlines()
     things_without_blanks = [line.strip() for line in things_including_blanks if line.strip()]
     sorted_things = quick_sort(things_without_blanks, human_is_smaller)
-    print("From lowest to highest priority:")
+    print("From lowest to highest:")
     for thing in sorted_things:
         print(thing)
 

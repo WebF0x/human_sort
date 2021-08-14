@@ -1,6 +1,4 @@
-four
-one
-six
-two
-five
-three
+chocolate
+caramel
+vanilla
+strawberry
