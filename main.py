@@ -16,9 +16,9 @@ def main():
     lines = open("unsorted_things.txt", "r").read()
     things_including_blanks = lines.splitlines()
     things_without_blanks = [line.strip() for line in things_including_blanks if line.strip()]
-    increasing = quick_sort(things_without_blanks, human_is_smaller)
-    print("From highest to lowest priority:")
-    for thing in list(reversed(increasing)):
+    sorted_things = quick_sort(things_without_blanks, human_is_smaller)
+    print("From lowest to highest priority:")
+    for thing in sorted_things:
         print(thing)
 
 
